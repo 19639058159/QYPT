@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80c99227-3991-4417-a480-25266394f128" name="Changes" comment="ce" />
+    <list default="true" id="80c99227-3991-4417-a480-25266394f128" name="Changes" comment="ce">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +72,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/member/static" />
+      <recent name="$PROJECT_DIR$/member" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/member/templates" />
+      <recent name="$PROJECT_DIR$/template" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.QYPT">
@@ -169,6 +176,8 @@
       <workItem from="1699781942107" duration="682000" />
       <workItem from="1700305128751" duration="12041000" />
       <workItem from="1700374526950" duration="83000" />
+      <workItem from="1700375255325" duration="445000" />
+      <workItem from="1702186413397" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="ce">
       <option name="closed" value="true" />

@@ -1,0 +1,103 @@
+body {
+    background: url(../img/z_.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.deng {
+    width: 50%;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.deng-an {
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    float: left;
+}
+
+.deng-an > .div1 {
+    background-image: url('../img/qian.jpg');
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 400px;
+    color: #ef0505;
+    border-radius: 30px;
+    text-align: center;
+}
+.deng-an > .div1 > a{
+    width: 30%;
+    height: 30px;
+    background-color: #08daee;
+    display: inline-block;
+    margin-top: 320px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+
+
+.deng-input {
+    width: 60%;
+    height: 400px;
+    float: right;
+    border-radius: 30px;
+    background-color: red;
+
+}
+.deng-title {
+    display: block;
+    width: 100%;
+    height: 0;
+    text-align: center;
+    line-height: 180px;
+    font-size: 35px;
+    color: white;
+}
+.deng-text {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 350px;
+}
+.submit {
+    width: 200px;
+    height: 32px;
+    border: none;
+    border-radius: 15px;
+    list-style: none;
+    background-color: #08daee;
+    cursor: pointer;
+
+}
+.submit:active {
+    background-color: #a49898;
+}
+.deng-text>label{
+    color: white;
+}
+.deng-text>label>input{
+    width: 300px;
+    height: 32px;
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #42d9c7;
+}
+input {
+    outline: none;
+}
