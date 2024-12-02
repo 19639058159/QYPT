@@ -22,7 +22,7 @@ function oneValue() {
     console.log(password + 'pass');
 
     if (username == '13082833919' && password == 'yy20210730..') {
-        window.location.href = 'https://www.baidu.com/'
+        window.location.href = '../../templates/home/home.html'
     } else {
         err.innerHTML = '账号或密码错误，请仔细查看';
         document.getElementById('overlay').style.display = 'block'

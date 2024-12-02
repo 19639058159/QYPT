@@ -146,4 +146,5 @@ button {
     list-style: none;
     background-color: #08daee;
     cursor: pointer;
+    left: auto;
 }
