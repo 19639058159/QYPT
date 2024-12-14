@@ -7,7 +7,7 @@
     <list default="true" id="80c99227-3991-4417-a480-25266394f128" name="Changes" comment="ce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/member/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/member/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/login/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/login/1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -103,7 +104,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/liujinyu/Documents/QYPT",
+    "last_opened_file_path": "/Users/liujinyu/Documents/QYPT/member/static/img",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -116,6 +117,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/member/static/img" />
       <recent name="$PROJECT_DIR$/member/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -226,7 +228,7 @@
       <workItem from="1732104270493" duration="1600000" />
       <workItem from="1732933032430" duration="16495000" />
       <workItem from="1732991307947" duration="691000" />
-      <workItem from="1733014356676" duration="9361000" />
+      <workItem from="1733014356676" duration="34426000" />
     </task>
     <task id="LOCAL-00001" summary="ce">
       <option name="closed" value="true" />

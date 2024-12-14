@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页-登录</title>
+    <link rel="stylesheet" href="../../static/css/home1.css">
+    <script type="text/javascript" src="../../static/js/login1.js"></script>
+</head>
+<body>
+    <div class="home_page">
+
+        <div class="home_img">
+            <img src="../../static/img/mn5.jpg" alt="Centered Image">
+        </div>
+
+        <div class="home_logo">
+            <div class="logo_title">
+                <div class="logo_img">
+                    <img src="../../static/img/logo.png" alt="Centered Image">
+                </div>
+                <div class="logo_zi">
+                    <span class="title_1">千羽餐饮集团</span>
+                    <div class="logo_desc">云管平台</div>
+                </div>
+            </div>
+
+            <div class="login_method">
+                <div class="login_phone">
+                    <span class="centered">手机号登录</span>
+                </div>
+            </div>
+
+            <div class="logo_text">
+                <div class="inner-div">
+                    <div class="inner-div1">
+                        <span>
+                            <img src="../../static/img/sj.png" alt="11">
+                        </span>
+                        <label>
+                            <input type="text" placeholder="请输入用户名" name="username">
+                        </label>
+                    </div>
+                    <div class="inner-div2">
+                        <span>
+                            <img src="../../static/img/suo.png" alt="22">
+                        </span>
+                        <label>
+                            <input type="password" placeholder="请输入密码" name="password">
+                        </label>
+                    </div>
+                    <div class="inner-div3">
+                        <button class="submit" id="btn1">获取验证码</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_submit">
+                <div class="home_login">
+                    <button class="submit" id="btn2" onclick="changeContent()">登录</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="overlay">
+        <div id="myModal" class="qwe">
+            <div class="clo">
+                <button onclick="closeModal()">关闭弹窗</button>
+            </div>
+            <div id="err"></div>
+
+        </div>
+    </div>
+</body>
+</html>

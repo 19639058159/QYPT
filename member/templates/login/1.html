@@ -2,31 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H5 图片轮播</title>
     <style>
-        ul {
-            width: 300px;
-            height: 200px;
-            background-color: #ef0505;
-            list-style-type: none;
-            padding-left: 0;
-            margin: 0;
+        .slider {
+            overflow: hidden;
+            max-width: 600px;
+            margin: auto;
+            position: relative;
         }
-        li {
-            width: 200px;
-            height: 20px;
-            background-color: #05efcc;
-            /*margin-left: 0;*/
+
+        .slider img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+
+        .slider img.active {
+            display: block;
+        }
+
+        .slider-dots {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .slider-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .slider-dot.active {
+            background-color: #333;
         }
     </style>
 </head>
 <body>
-    <ul>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-    </ul>
+
+<div class="slider">
+    <img class="active" src="../../static/img/mn3.jpg" alt="Image 1">
+    <img src="../../static/img/mn4.jpg" alt="Image 2">
+    <img src="../../static/img/mn5.jpg" alt="Image 3">
+
+    <div class="slider-dots">
+        <span class="slider-dot active"></span>
+        <span class="slider-dot"></span>
+        <span class="slider-dot"></span>
+    </div>
+</div>
+
+<script>
+    const sliderImages = document.querySelectorAll('.slider img');
+    const dots = document.querySelectorAll('.slider-dot');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        sliderImages.forEach((img, i) => {
+            img.classList.toggle('active', i === index);
+        });
+
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextSlide() {
+        const nextIndex = (currentIndex + 1) % sliderImages.length;
+        showSlide(nextIndex);
+        currentIndex = nextIndex;
+    }
+
+    function startSlider() {
+        setInterval(nextSlide, 3000); // 每3秒切换到下一张图片
+    }
+
+    startSlider();
+</script>
+
 </body>
 </html>

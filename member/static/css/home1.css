@@ -1,0 +1,256 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.home_page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.home_img{
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.home_logo{
+    width: 35%;
+    height: 100%;
+
+
+}
+.logo_title{
+    height: 15%;
+    width: 100%;
+    position: relative;
+    top: 15%;  /* 距离顶部50px */
+    overflow: hidden;
+    display: flex;
+}
+.logo_img{
+    width: 45%;
+    height: 100%;
+    border-right: 3px solid #e0e0e0;
+}
+.logo_title img {
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    margin-right: 10px;
+}
+.logo_zi{
+    width: 55%;
+    height: 100%;
+}
+.title_1{
+    position: relative;
+    top: 15px;
+    color: rgba(0,0,0,.85);
+    font-size: 33px;
+    font-weight: 600;
+    font-family: Avenir, "Helvetica Neue", Arial,Helvetica,sans-serif;
+    margin-left: 20px;
+}
+.logo_desc{
+    height: 25px;
+    width: 100px;
+    margin-left: 20px;
+    color: rgba(0,0,0,.45);
+    font-size: 16px;
+    bottom: 20px;
+    position: absolute;
+
+}
+
+.login_method{
+    height: 7%; /* 设置div的高度 */
+    position: relative;
+    top: 18%;
+}
+
+.login_phone{
+    height: 85%; /* 设置div的高度 */
+    width: 100%;
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+.login_phone > span{
+    color: #1890ff;
+}
+.login_method:before{
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    bottom: 0;
+    content: "";
+    border-bottom: 5px solid #b90a0a;
+}
+
+.logo_text{
+    height: 15%; /* 设置div的高度 */
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+}
+
+.inner-div {
+    display: inline-block;
+    width: 75%; /* 设置内层div的宽度 */
+    height: 100%; /* 设置内层div的高度 */
+    position: relative;
+}
+.inner-div1 {
+    display: flex;
+    width: 100%; /* 设置内层div的宽度 */
+    height: 50px; /* 设置内层div的高度 */
+    position: relative;
+    top: 15px;
+    border: 1px solid rgba(0,0,0,.45);
+}
+
+.inner-div2 {
+    display: flex;
+    width: 60%; /* 设置内层div的宽度 */
+    height: 50px; /* 设置内层div的高度 */
+    position: relative;
+    top: 23px;
+    border: 1px solid rgba(0,0,0,.45);
+
+
+
+}
+.inner-div1 > span{
+    width: 60px;
+    height: 100%;
+    display: block;
+    border-right: 1px solid rgba(0,0,0,.45);
+}
+.inner-div1 > span > img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.inner-div2 > span{
+    width: 59px;
+    height: 100%;
+    display: block;
+    border-right: 1px solid rgba(0,0,0,.45);
+}
+.inner-div2 > span > img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.inner-div1>label{
+    color: white;
+}
+.inner-div1>label>input{
+    width: 370px;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.inner-div2>label{
+    color: white;
+}
+.inner-div2>label>input{
+    width: 190px;
+    height: 48px;
+    border: none;
+    font-size: 15px;
+    margin-left: 5px;
+}
+input {
+    outline: none;
+}
+
+.inner-div3{
+    width: 35%; /* 设置内层div的宽度 */
+    height: 51px; /* 设置内层div的高度 */
+    float: right;
+    position: relative;
+    top: -30px;
+    border: 1px solid rgba(0,0,0,.45);
+}
+.submit{
+    width: 100%;
+    height: 51px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
+}
+.submit:active {
+    background-color: #696569;
+    box-shadow: 0 1px #666;
+}
+button {
+    outline: none;
+}
+
+.home_submit{
+    height: 8%; /* 设置div的高度 */
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+}
+.home_login{
+    display: inline-block;
+    width: 75%; /* 设置内层div的宽度 */
+    height: 70%; /* 设置内层div的高度 */
+    position: relative;
+    background-color: #40a9ff;
+}
+.home_login > button{
+    background-color: #40a9ff;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none; /* 默认不显示遮罩层 */
+}
+
+#myModal {
+    margin: 0;
+    display: none; /* 默认隐藏弹窗 */
+    position: fixed; /* 固定弹窗位置 */
+    left: 35%;
+    top: 10%;
+    width: 500px;
+    height: 100px;
+    background-color: #f5f4f4;
+    border: 1px solid #faf8fa;
+    padding: 20px;
+    zindex: 1; /* 确保弹窗在其他元素之上 */
+    text-align: center;
+}
+.clo {
+    position: absolute;
+    width: 500px;
+    height: 32px;
+    border-radius: 30px;
+    background-color: #08daee;
+    top: 70%;
+    align-content: center;
+}
+.clo>button {
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-radius: 15px;
+    list-style: none;
+    background-color: #08daee;
+    cursor: pointer;
+    left: auto;
+}
